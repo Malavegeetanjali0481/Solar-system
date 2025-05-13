@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    background-color:black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe5cis7vHimpkH2OQ5fCLvyQj7szcF-wewMw&s);
+    overflow: hidden;
+}
+.container{
+    font-size:5px;
+    width:4em;
+    height:4em;
+    position:relative;
+    display:flex;
+    align-items: center;
+}
+img{
+    height:130%;
+    width:130%;
+}
+.sun{
+    display:flex;
+    align-items:center;
+    position: absolute;
+    top:10em;
+    left:80em;
+    width:10em;
+    height:10em;
+    border-radius: 80%;
+    animation:orbit 30s linear infinite;
+    margin-right: 50%;
+    animation-direction: alternate-reverse;
+
+}
+.star {
+    align-items:center;
+}
+@keyframes orbit{
+    to{
+        transform: rotate(360deg);
+        transition-duration: 20ms;
+    }
+}
