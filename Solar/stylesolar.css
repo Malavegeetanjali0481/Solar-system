@@ -23,8 +23,8 @@ img{
     display:flex;
     align-items:center;
     position: absolute;
-    top:150em;
-    left:80em;
+    top:10em;
+    left:150em;
     width:10em;
     height:10em;
     border-radius: 80%;
